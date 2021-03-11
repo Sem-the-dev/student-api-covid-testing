@@ -15,7 +15,7 @@ function submitStudent(e){
 
     const studentData = {
         name: e.target.name.value,
-        grade: e.target.age.value,
+        age: e.target.age.value,
         results: e.target.results.value,
         
     };
@@ -41,7 +41,7 @@ function appendStudents(students){
 
 function appendStudent(studentData){
     const newLi = document.createElement('li');
-    newLi.textContent = `Patient ${studentData.name} aged ${studentData.grade} has tested ${studentData.results}`
+    newLi.textContent = `${studentData.name} aged ${studentData.age} has tested ${studentData.results}`
     const studentsList = document.querySelector('ul');
     studentsList.append(newLi);
 };
