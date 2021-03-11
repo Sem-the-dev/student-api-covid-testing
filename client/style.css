@@ -1,0 +1,16 @@
+body {
+  background-color: bisque;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 4rem;
+}
+#submit-button {
+  padding: 10px;
+  margin-top: 4rem;
+}
+
+form {
+  justify-content: space-around;
+}
