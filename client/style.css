@@ -5,6 +5,7 @@ body {
 }
 h1 {
   margin-bottom: 4rem;
+  color: dimgrey;
 }
 #submit-button {
   padding: 10px;
