@@ -3,7 +3,7 @@ form.addEventListener('submit', submitStudent)
 
 // index
 function getAllStudents(){
-    fetch('http://localhost:3000/students')
+    fetch('https://student-covid19-testing.herokuapp.com/students')
         .then(r => r.json())
         .then(appendStudents)
         .catch(console.warn)
@@ -28,7 +28,7 @@ console.log(studentData)
         }
     };
 
-    fetch('http://localhost:3000/students', options)
+    fetch('https://student-covid19-testing.herokuapp.com/students', options)
         .then(r => r.json())
         .then(appendStudent)
         .catch(console.warn)
